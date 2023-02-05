@@ -1,0 +1,48 @@
+.modalContainer {
+  width: 600px;
+  height: 400px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
+}
+
+.close-modal-btn {
+  font-size: 30px !important;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.modalPosition {
+  position: fixed;
+  top: 100px;
+}
+
+.modal-btn {
+  font-size: 20px;
+}
+
+.modal-content {
+  margin-top: 30px;
+}
+
+.rightToLeft {
+  direction: rtl;
+}
+
+.footer {
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  margin: 5px;
+}

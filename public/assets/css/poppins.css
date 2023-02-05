@@ -1,0 +1,17 @@
+@font-face {
+  font-family: PoppinsLatin-Regular;
+  src: url("../fonts/Poppins/PoppinsLatin-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: PoppinsLatin-Black;
+  src: url("../fonts/Poppins/PoppinsLatin-Black.ttf") format("truetype");
+}
+
+.PoppinsLatin-Regular {
+  font-family: "PoppinsLatin-Regular";
+}
+
+.PoppinsLatin-Black {
+  font-family: "PoppinsLatin-Black";
+}

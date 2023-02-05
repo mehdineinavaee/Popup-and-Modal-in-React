@@ -1,0 +1,68 @@
+.popup {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  width: 400px;
+  max-width: 400px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(229, 252, 236, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+.popup-inner .close-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.circle-icon {
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  background: #423ffe;
+  color: #fff;
+  text-align: center;
+  padding-top: 3px;
+  margin: 0px 10px 10px 0px;
+  border-radius: 50%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+.fade-out {
+  animation: fadeOut 1s;
+}
